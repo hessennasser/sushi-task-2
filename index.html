@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d633f21f4a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="font-Playfair bg-bg-color">
+    <!-- start header -->
+    <header class="relative h-[84px] flex items-center justify-between">
+        <div class="container flex items-center justify-between">
+            <div class="logo w-12 flex gap-2 items-center">
+                <img src="imgs/Sushi - Logo.png" alt="">
+                <span class="text-2xl font-bold">sushi</span>
+            </div>
+            <nav class="relative w-full md:w-fit hidden md:block">
+                <ul
+                    class="flex flex-col items-center justify-center gap-5 w-full h-[200px] absolute top-5 left-1/2 -translate-x-1/2 rounded-lg bg-white md:relative md:bg-inherit md:flex-row md:h-fit md:top-0 md:left-0 md:translate-x-0 md:rounded-none">
+                    <li class=""><a href="#" class="hover:underline capitalize">home</a></li>
+                    <li class=""><a href="#" class="hover:underline capitalize">about us</a></li>
+                    <li class=""><a href="#" class="hover:underline capitalize">popular</a></li>
+                    <li class=""><a href="#" class="hover:underline capitalize">recently</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon block md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start hero section  -->
+    <div class="hero h-[calc(100vh_-_84px)] flex items-center justify-center">
+        <div class="container flex flex-col-reverse items-center justify-center gap-10 md:flex-row md:justify-between md:gap-16">
+            <div class="flex flex-col gap-5">
+                <h2 class="font-semibold text-3xl">
+                    Enjoy Delicious<br>
+                    <img class="w-10 inline" src="imgs/Sushi - img.png" alt=""> Sushi Food
+                </h2>
+                <p class="text-center md:text-start">
+                    Enjoy a good with dinner with the best<br> dishes the restaurant and improve your day
+                </p>
+                <a class="uppercase font-bold text-white bg-[#d36537] py-3 px-5 rounded-full w-fit" href="#">order now</a>
+            </div>
+            <div class="">
+                <img src="imgs/main - img.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end hero section  -->
+    <script src="app.js"></script>
+</body>
+
+</html>

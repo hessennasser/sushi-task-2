@@ -1,0 +1,7 @@
+nav.active {
+    display: block;
+}
+
+nav.active ul {
+    display: flex;
+}
